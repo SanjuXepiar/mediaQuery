@@ -3,10 +3,11 @@ import { Routes, Route } from "react-router-dom";
 import { Profile } from "./Profile";
 import { About } from "./About";
 import { Message } from "./Message";
+import { Home } from "./Home";
 
-export const Route = () => {
+export const Pages = () => {
   return (
-    <section className="Home">
+    <section className="mainBody">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
